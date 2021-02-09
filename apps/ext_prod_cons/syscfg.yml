@@ -1,0 +1,28 @@
+syscfg.vals:
+    SHELL_TASK: 1
+    OS_CRASH_FILE_LINE: 1
+    OS_CRASH_STACKTRACE: 1
+
+    MSYS_1_BLOCK_COUNT: 24
+    # Disable not used GAP roles (we only do non-connectable
+    # advertising here)
+    BLE_ROLE_BROADCASTER: 1
+    BLE_ROLE_CENTRAL: 1
+    BLE_ROLE_OBSERVER: 1
+    BLE_ROLE_PERIPHERAL: 1
+
+    # Disable unused eddystone featdure.
+    BLE_EDDYSTONE: 0
+
+    # Enable Extended Advertising
+    BLE_EXT_ADV: 1
+
+    # Max advertising data size
+    BLE_EXT_ADV_MAX_SIZE: 1650
+
+    # Number of multi-advertising instances. Note that due
+    # to historical reasonds total number of advertising
+    # instances is BLE_MULTI_ADV_INSTANCES + 1 as instance
+    # 0 is always available
+    BLE_MULTI_ADV_INSTANCES: 0
+

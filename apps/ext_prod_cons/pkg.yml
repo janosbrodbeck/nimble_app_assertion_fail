@@ -1,0 +1,16 @@
+pkg.name: "apps/ext_prod_cons"
+pkg.type: app
+pkg.description: "Extended Advertisings producer/consumer app to trigger assertion fail"
+pkg.author: "János Brodbeck"
+
+pkg.deps:
+    - "@apache-mynewt-core/kernel/os"
+    - "@apache-mynewt-core/sys/console/full"
+    - "@apache-mynewt-core/sys/log/full"
+    - "@apache-mynewt-core/sys/stats/full"
+    - "@apache-mynewt-core/sys/log/modlog"
+    - "@apache-mynewt-core/sys/shell"
+    - "@apache-mynewt-nimble/nimble/host"
+    - "@apache-mynewt-nimble/nimble/host/util/"
+    - "@apache-mynewt-nimble/nimble/host/store/config"
+    - "@apache-mynewt-nimble/nimble/transport"
