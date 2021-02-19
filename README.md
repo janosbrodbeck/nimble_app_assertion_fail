@@ -37,7 +37,7 @@ Open terminal (e.g. `pyterm -p /dev/tty...`).
 ### Use the app
 Flash the application on two nodes. One will serve as consumer the other as producer.
 
-__Producer:__ Start with `producer <interval>`, interval given in ms. Recommended values: 1000 as highest starting point.  
+__Producer:__ Start with `producer <interval>`, interval given in ms. Recommended values: 200 to 500 as starting points. This should trigger the issue very fast.  
 __Consumer:__ Start with entering `consumer` into the console  
 
 The lower, the faster the crash can be triggered. Would not recommend to go below 200/250ms.
